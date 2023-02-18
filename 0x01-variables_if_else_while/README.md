@@ -1,4 +1,4 @@
-This project is about ** C programming**: declaring variables,
+This project is about **C programming**: declaring variables,
 arithmetic operators, boolean operators, comments,
 relational opeerators and loops.
 
