@@ -4,17 +4,17 @@
  * reverse_array - Function that reverse an array.
  * @a: Input array
  * @n: number of elements of array
- * Return: Nothing
+ * Return: void
  */
 void reverse_array(int *a, int n)
 {
-	int i = 0;
-	int aux;
+	int i;
+	int t;
 
-	while (i < n--)
+	for (i = 0; i < n--; i++)
 	{
-		aux = a[i];
-		a[i++] = a[n];
-		a[n] = aux;
+		t = a[i];
+		a[i] = a[n];
+		a[n] = t;
 	}
 }
